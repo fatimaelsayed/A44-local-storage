@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+}
+#title {
+    width: 160px;
+    margin-bottom: 15px;
+}
+#notes {
+    height: 35px;
+    width: 160px;
+    margin-bottom: 15px;
+}
+#displaytitle{
+    margin-top: 25px;
+}
+
+#save, #display, #clear {
+    padding: 6px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
